@@ -1,0 +1,112 @@
+
+<div class="container hstack gap-5">
+    
+    <div class="container row contacto" id="body">
+        <form action="/contacto" method="post">
+            <h3 class="mb-4">Escribinos</h3>
+
+            <div class="row">
+
+                   <div class="mb-4">
+                        <label for="nombre_apellido" class="form-label">Nombre y Apellido *</label>
+                        <input type="text" class="form-control" id="nombre_apellido" name="nombre_apellido" required>
+                   </div>
+
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Email *</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="mb-4">
+                    <label for="curso" class="form-label" type="text">Curso *</label>
+                    <select class="form-select" name="curso">
+                        <option selected></option>               
+                        <option value="1">Piloto Privado</option>
+                        <option value="2">Piloto Comercial de Avión con HVI</option>         
+                        <option value="5">Piloto Comercial de Helicóptero con HVI</option>               
+                        <option value="3">Operador Radiotelefonista Restringido</option>
+                        <option value="4">Tripulante de Cabina de Pasajeros</option>
+                        <option value="6">Despachante de Aeronáves</option>
+                        <option value="7">Instructor de Teoría y Práctica de Vuelo</option>
+                        <option value="8">Operador de Servicio de Rampa</option> 
+                        <option value="9">Señalero de Aeródromo</option>
+                    </select>
+                </div> 
+
+
+                <div class="mb-4">
+                    <label for="modalidad" class="form-label" type="text">Modalidad *</label>
+                    <select class="form-select" name="modalidad">
+                        <option selected></option>
+                        <option value="1">Presencial</option> 
+                        <option value="2">Virtual</option>                
+                        <option value="3">Ambos</option>
+                    </select>
+                </div>      
+            </div>
+
+
+
+            <div class="mb-5">
+                <label for="consulta" class="form-label" type="text">Consulta</label>
+                
+                <textarea class="form-control height:100px;" id="consulta" name="consulta" aria-label="default input example" placeholder="Quisiera recibir información sobre este curso"></textarea>
+            </div>
+
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary w-75">Enviar</button>
+            </div>  
+
+        </form>
+    </div>
+
+
+    {{!-- ------------------------------------- --}}
+
+
+    <div class="container gps row" id="body">
+        <h3 class="mb-4">Dónde estamos</h3>
+
+        <div class="">
+            <p class="small">
+                Nicolás Avellaneda 445, Vicente López, Florida, CP B1602AGG <br>
+                Encontranos de 14:00hs a 21:00hs.
+            </p>
+        </div>
+
+        <div class="map mb-4">
+            <iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.711065461999!2d-58.48194641377167!3d-34.535547608280304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6b0b60c0f9d%3A0xf9158aaceefc9b26!2sETAP%20Escuela%20T%C3%A9cnica%20de%20Aviaci%C3%B3n%20Profesional!5e0!3m2!1ses!2sar!4v1673208803004!5m2!1ses!2sar" width="550" height="400" style="" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <hr class="" style="background-color: black; width:50%; height:5px;">
+
+        <h3 class="mb-4">Contactanos</h3>
+
+        <div class="">
+            <p class="small">
+                <img class="comun" src="/img/wp.png">+54 9 11 6586-9700
+            </p>
+
+            <p class="small">
+                <img class="comun" src="/img/call.png">011 4791-3948 / 9683
+            </p>
+
+            <p class="small">
+                <img class="comun" src="/img/email.png">info@escuelaetap.com
+            </p>
+        </div>
+
+
+
+
+
+    </div>
+</div>
+
+
+

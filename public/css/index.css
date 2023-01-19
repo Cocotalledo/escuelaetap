@@ -1,0 +1,120 @@
+
+.logo{
+    width:141px;
+    height:46px;
+    margin-right: 20px;
+}
+
+
+.carousel{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    border-radius: 0.4em 0.4em 0 0;
+}
+
+
+#body{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+
+/* Cursos */
+.container {
+    position: relative;
+    width: 100%;
+}
+  
+
+.album{
+    margin-bottom: 8rem;
+    background-color: rgb(217,217,217);
+}
+
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+
+.middle {    
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 71%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.66);
+    border-radius: 0.4em 0.4em 0 0;
+}
+  
+
+.container:hover .image {
+    opacity: 2;
+}
+  
+
+.container:hover .middle {
+    opacity: 8;
+}
+  
+
+.text {
+    text-align: center;
+    line-height: 200px; 
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+} 
+
+
+.card-text{
+    font-size: small;
+}
+
+
+#add{
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+
+/* -------------------------- */
+
+
+/* Contacto */
+
+.contacto{
+    margin-bottom: 8rem;
+    border: 1px solid rgba(0, 76, 255, 0.299);
+    padding:30px;
+    border-radius: 6px;
+    background-color: rgba(46, 147, 198, 0.201)
+}
+
+
+.gps{
+    margin-bottom: 8rem;
+    padding:30px;
+    border-radius: 6px;
+}
+
+
+.map{
+    text-align: center;
+}
+
+.comun{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+
+
